@@ -1,10 +1,6 @@
 package service;
 
-import service.Car;
-import service.Person;
-
 import javax.faces.bean.ApplicationScoped;
-import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;

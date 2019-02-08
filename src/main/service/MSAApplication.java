@@ -1,7 +1,8 @@
 package service;
 
 import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 
-@ApplicationPath("/")
-public class MSAApplication {
+@ApplicationPath("/service")
+public class MSAApplication extends Application {
 }
