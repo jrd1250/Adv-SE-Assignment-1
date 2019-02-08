@@ -1,38 +1,48 @@
 package service;
 
-import javax.persistence.Entity;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
-import javax.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
-@Table(name = "Person")
+@Table(name = "person")
 @NamedQueries({
-        @NamedQuery(name = "Person.findAll", query = "SELECT p FROM Person p")
+        @NamedQuery(name = "Person.findAll", query = "SELECT p from Person p")
 })
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Person {
 
-    private int id;
+    @Id
+    @SequenceGenerator(
+            name = "person_sequence",
+            allocationSize = 1
+    )
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "person_sequence")
+    @Column(name = "id", updatable = false, nullable = false)
+    private Integer id;
 
+    @NotNull
+    @Size(min = 1, max = 50)
+    @Column(name = "name", length = 50, nullable = false)
     private String name;
 
+    @NotNull
+    @Size(min = 3, max = 100)
+    @Column(name = "email", length = 100, nullable = false)
     private String email;
 
-    private int age;
+    @NotNull
+    @Column(name = "age", nullable = false)
+    private Integer age;
 
-    public Person(int id, String name, String email, int age) {
-        setId(id);
-        setName(name);
-        setEmail(email);
-        setAge(age);
-    }
-
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -52,11 +62,11 @@ public class Person {
         this.email = email;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
