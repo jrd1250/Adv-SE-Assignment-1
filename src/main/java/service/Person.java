@@ -12,13 +12,14 @@ import javax.validation.constraints.Size;
 @NamedQueries({
         @NamedQuery(name = "Person.findAll", query = "SELECT p from Person p")
 })
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id", scope = Person.class)
 public class Person {
 
     @Id
     @SequenceGenerator(
             name = "person_sequence",
-            allocationSize = 1
+            allocationSize = 1,
+            initialValue = 2
     )
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "person_sequence")
     @Column(name = "id", updatable = false, nullable = false)

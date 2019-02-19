@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3706bd43-38f4-4de9-afbe-b409b25c5fa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/service/MSAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service/MSAApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/service/PersonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service/PersonResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service/CarResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service/MSAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MSAApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service/PersonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/PersonResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serviceExample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/serviceExample.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serviceExample.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +32,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/load.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/service/CarResource.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="267">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/CarResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2475">
+              <caret line="167" column="95" selection-start-line="167" selection-start-column="95" selection-end-line="167" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,10 +63,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/service/PersonResource.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/arquillian.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/test/PersonResourceIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="1957">
+              <caret line="159" column="38" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +80,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/service/MSAApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/test/CarResourceIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="513">
+              <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/PersonResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="767">
+              <caret line="107" column="64" selection-start-line="107" selection-start-column="64" selection-end-line="107" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="111" selection-start-line="14" selection-start-column="111" selection-end-line="14" selection-end-column="111" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +148,19 @@
         <option value="$PROJECT_DIR$/src/main/MSAApplication.java" />
         <option value="$PROJECT_DIR$/src/main/service/Car.java" />
         <option value="$PROJECT_DIR$/src/main/service/Person.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/service/MSAApplication.java" />
         <option value="$PROJECT_DIR$/src/main/service/PersonResource.java" />
         <option value="$PROJECT_DIR$/src/main/service/CarResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/load.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/service/test/AddressResourceIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/PersonResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/test/PersonResourceIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/Car.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/test/CarResourceIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/CarResource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -108,7 +187,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -125,31 +204,75 @@
         <subPane>
           <expand>
             <path>
-              <item name="Assignment 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment 1" type="462c0819:PsiDirectoryNode" />
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Assignment 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment 1" type="462c0819:PsiDirectoryNode" />
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Assignment 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment 1" type="462c0819:PsiDirectoryNode" />
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Assignment 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment 1" type="462c0819:PsiDirectoryNode" />
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Assignment 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment 1" type="462c0819:PsiDirectoryNode" />
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Adv-SE-Assignment-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Adv-SE-Assignment-1" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,14 +285,28 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549603767315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550558494092" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="service.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,6 +319,58 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Arquillian JUnit.Manual container configuration: CarResourceIT">
+    <configuration name="Manual container configuration: CarResourceIT" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Manual container configuration" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="service.test" />
+      <option name="MAIN_CLASS_NAME" value="service.test.CarResourceIT" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manual container configuration: PersonResourceIT" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Manual container configuration" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="service.test" />
+      <option name="MAIN_CLASS_NAME" value="service.test.PersonResourceIT" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Arquillian JUnit.Manual container configuration: CarResourceIT" />
+        <item itemvalue="Arquillian JUnit.Manual container configuration: PersonResourceIT" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -197,17 +386,50 @@
       <workItem from="1549597279299" duration="690000" />
       <workItem from="1549598122431" duration="2836000" />
       <workItem from="1549600981816" duration="2698000" />
+      <workItem from="1550547072065" duration="7043000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 43m 36s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 43m 48s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 44m 42s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 46m 16s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__PersonResourceIT - 2019.02.18 at 22h 46m 39s.xml">
+      <configuration name="Manual container configuration: PersonResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 49m 49s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 52m 29s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 53m 09s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__PersonResourceIT - 2019.02.18 at 22h 53m 20s.xml">
+      <configuration name="Manual container configuration: PersonResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Manual_container_configuration__CarResourceIT - 2019.02.18 at 22h 53m 31s.xml">
+      <configuration name="Manual container configuration: CarResourceIT" configurationId="ArquillianJUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7145000" />
+    <option name="totallyTimeSpent" value="14188000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2522222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18131869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -216,14 +438,16 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="JavaEE:App" order="8" side_tool="true" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32929516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -232,7 +456,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17333333" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.114163615" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="CDI" order="6" />
@@ -248,39 +472,22 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/service/PersonResource.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/service/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/service/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/project-defaults.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/service/MSAApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/MSAApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="75">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -288,38 +495,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/service/PersonResource.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/arquillian.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/load.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="15">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/PersonResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="107" column="64" selection-start-line="107" selection-start-column="64" selection-end-line="107" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/service/CarResource.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/test/PersonResourceIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="1957">
+          <caret line="159" column="38" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="111" selection-start-line="14" selection-start-column="111" selection-end-line="14" selection-end-column="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/test/CarResourceIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/CarResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="167" column="95" selection-start-line="167" selection-start-column="95" selection-end-line="167" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
+      <state key="ArquillianSettingsConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>Assignment 1:ear exploded</last-edited>
+          <last-edited>Manual container configuration|Manual</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Assignment 1:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -350,7 +625,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_201</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

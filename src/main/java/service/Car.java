@@ -1,10 +1,7 @@
 package service;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerator;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import jdk.internal.jline.internal.TestAccessible;
-import org.graalvm.compiler.nodeinfo.StructuralInput;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -16,13 +13,14 @@ import java.util.Objects;
 @NamedQueries({
         @NamedQuery(name = "Car.findAll", query = "SELECT c from Car c")
 })
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id", scope = Car.class)
 public class Car {
 
     @Id
     @SequenceGenerator(
             name = "car_sequence",
-            allocationSize = 1
+            allocationSize = 1,
+            initialValue = 2
     )
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "car_sequence")
     @Column(name = "id", updatable = false, nullable = false)
@@ -39,11 +37,12 @@ public class Car {
 
     @NotNull
     @Size(min = 1, max = 9)
-    @Column(name = "licensePlate", nullable = false)
+    @Column(name = "license_plate", nullable = false)
     private String licensePlate;
 
-    @ManyToOne
-    @JoinColumn(name = "owner_id")
+    @NotNull
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "owner_id", nullable = false)
     private Person owner;
 
     public Integer getId() {
